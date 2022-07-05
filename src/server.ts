@@ -12,4 +12,4 @@ app.get("/", (request, response) => {
 
 app.use("/categories", categoriesRoutes);
 
-app.listen(3333, () => console.log("Server is running!"));
+app.listen(4444, () => console.log("Server is running!"));

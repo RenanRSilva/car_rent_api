@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(router);
 
-app.use("/api-docs", swaggerUi.server, swaggerUi.setup(swaggerFile))
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile))
 
 
 app.listen(4444, () => console.log("Server is running!"));

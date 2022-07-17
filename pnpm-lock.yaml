@@ -17,6 +17,7 @@ specifiers:
   express: ^4.18.1
   multer: 1.4.5-lts.1
   prettier: ^2.7.1
+  swagger-ui-express: ^4.5.0
   ts-node-dev: ^2.0.0
   typescript: ^4.7.4
   uuid: ^8.3.2
@@ -29,6 +30,7 @@ dependencies:
   eslint-plugin-import: 2.26.0_l72zgbgtxaq433oy4ixs7p5cuy
   express: 4.18.1
   multer: 1.4.5-lts.1
+  swagger-ui-express: 4.5.0_express@4.18.1
   typescript: 4.7.4
   uuid: 8.3.2
 
@@ -2070,6 +2072,20 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /swagger-ui-dist/4.12.0:
+    resolution: {integrity: sha512-B0Iy2ueXtbByE6OOyHTi3lFQkpPi/L7kFOKFeKTr44za7dJIELa9kzaca6GkndCgpK1QTjArnoXG+aUy0XQp1w==}
+    dev: false
+
+  /swagger-ui-express/4.5.0_express@4.18.1:
+    resolution: {integrity: sha512-DHk3zFvsxrkcnurGvQlAcLuTDacAVN1JHKDgcba/gr2NFRE4HGwP1YeHIXMiGznkWR4AeS7X5vEblNn4QljuNA==}
+    engines: {node: '>= v0.10.32'}
+    peerDependencies:
+      express: '>=4.0.0'
+    dependencies:
+      express: 4.18.1
+      swagger-ui-dist: 4.12.0
+    dev: false
 
   /synckit/0.7.2:
     resolution: {integrity: sha512-CSZRtSRZ8RhJGMtWyLRqlarmWPPlsgZJHtV6cz0VTHNOg+R7UBoE2eNPQmB5Qrhtk3RX2AAcJmVwMXFULVQSwg==}
